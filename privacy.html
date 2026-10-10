@@ -45,9 +45,14 @@
   <p>夜饭仅在以下情况访问网络：</p>
   <ul>
     <li>下载或显示导入的饭否历史记录中的图片时，从这些图片原本所在的服务器获取；</li>
-    <li>你点按「打开饭否备份工具」时，在浏览器中打开第三方网站。</li>
+    <li>你点按「打开饭否备份工具」时，在浏览器中打开第三方网站；</li>
+    <li>打开足迹地图（夜饭 Plus）时，通过 Apple 地图服务加载地图，并把记录中的城市名转换为地图坐标。只发送城市名，坐标缓存在本机；</li>
+    <li>购买或恢复夜饭 Plus 时，由 App Store 处理付款和验证，开发者看不到你的付款信息。</li>
   </ul>
-  <p>这些请求不包含你在夜饭中的任何记录内容。</p>
+  <p>这些请求不包含你在夜饭中写下的任何内容。</p>
+
+  <h2>通知</h2>
+  <p>如果你打开每晚提醒，提醒由系统在本机安排，不经过任何服务器。</p>
 
   <h2>儿童隐私</h2>
   <p>夜饭不会收集任何人的个人信息，包括 13 岁以下的儿童。</p>
@@ -66,7 +71,9 @@
       <li><strong>iCloud (optional):</strong> when you tap "Back up to iCloud", a backup file is written to the app's private container in your own iCloud account. The developer cannot access it.</li>
       <li><strong>Location (optional):</strong> only when you turn it on for a post, the app gets your location once and converts it to a city name using Apple's system service. Only the city name is stored, on your device.</li>
       <li><strong>Camera and photos:</strong> accessed only when you take or pick a photo, or save a share image to your library.</li>
-      <li><strong>Network:</strong> used only to download images from imported Fanfou posts from the servers where they are hosted, and to open the third-party Fanfou backup tool in your browser when you tap it. No journal content is sent.</li>
+      <li><strong>Network:</strong> used only to download images from imported Fanfou posts from the servers where they are hosted; to open the third-party Fanfou backup tool in your browser when you tap it; and, when you open the Footprint Map (NightSnack Plus), to load Apple Maps and turn the city names in your entries into map coordinates. Only city names are sent, and the coordinates are cached on your device. No journal content is sent.</li>
+      <li><strong>Purchases:</strong> buying or restoring NightSnack Plus is handled by the App Store. The developer never sees your payment details.</li>
+      <li><strong>Notifications:</strong> the optional nightly reminder is scheduled on your device by iOS and does not go through any server.</li>
     </ul>
     <p>Contact: <a href="mailto:zw0948@gmail.com">zw0948@gmail.com</a></p>
   </div>
